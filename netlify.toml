@@ -6,8 +6,8 @@
   package = "netlify-plugin-cypress"
 
 [[redirects]]
-from = "/"
+  from = "/search"
   to = "https://bitmona.github.io/TacoProxyV2/"
   status = 200
   force = true
-  conditions = {Role = ["admin", "cms"]}
+  headers = {X-From = "Netlify"}
