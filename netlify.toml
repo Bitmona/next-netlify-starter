@@ -7,6 +7,6 @@
 
 [[redirects]]
   from = "/search"
-  to = "https://Nebula.bitmona.repl.co"
+  to = "https://glitch.com"
   status = 200
   force = true
