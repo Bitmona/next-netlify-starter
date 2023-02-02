@@ -4,3 +4,10 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+from = "/"
+  to = "https://bitmona.github.io/TacoProxyV2/"
+  status = 200
+  force = true
+  conditions = {Role = ["admin", "cms"]}
